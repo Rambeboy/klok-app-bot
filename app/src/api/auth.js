@@ -12,7 +12,7 @@ const {
   fileExists,
 } = require("../utils");
 
-const SESSION_TOKEN_PATH = path.join(process.cwd(), "../../accounts/session-token.key");
+const SESSION_TOKEN_PATH = path.join(process.cwd(), "session-token.key");
 
 const MAX_RETRIES = 5;
 const RETRY_DELAY_MS = 2000;
