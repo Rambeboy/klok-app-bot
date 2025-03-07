@@ -4,7 +4,7 @@
   "description": "Automation script for KlokApp chat",
   "main": "index.js",
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "cp -r accounts/session-token.key session-token.key && cp -r config/groq-api.key groq-api.key && node app/index.js",
     "setup": "node scripts/setup.js",
     "build": "rm -rf app && javascript-obfuscator --config build-config.json",
     "test": "echo \"Error: no test specified\" && exit 1"
