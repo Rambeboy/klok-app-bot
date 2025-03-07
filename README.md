@@ -41,24 +41,24 @@ Terminal-based automation tool for KlokApp AI chat with session token authentica
 - Go to Application tab > Local Storage > https://klokapp.ai
 - Find and copy the `session_token` value
 - Edit `session-token.key` file with this value:
-```bash
-nano accounts/session-token.key
-```
-Example :
-```
-echo "YOUR_SESSION_TOKEN_HERE" > session-token.key
-```
+  ```bash
+  nano accounts/session-token.key
+  ```
+  Example :
+  ```
+  echo "YOUR_SESSION_TOKEN_HERE" > session-token.key
+  ```
 
 5. **Groq API Key** (Required):
 - Get your API key from [Groq](https://console.groq.com/)
 - Edit `groq-api.key` file with this key:
-```bash
-nano config/groq-api.key
-```
-Example :
-```
-echo "YOUR_GROQ_API_KEY_HERE" > groq-api.key
-```
+  ```bash
+  nano config/groq-api.key
+  ```
+  Example :
+  ```
+  echo "YOUR_GROQ_API_KEY_HERE" > groq-api.key
+  ```
 
 ## RUNNING
 
