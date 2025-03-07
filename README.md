@@ -31,7 +31,7 @@ Terminal-based automation tool for KlokApp AI chat with session token authentica
 
 3. **KlokApp Account**:
 
-- Register at [KlokApp](https://klokapp.ai/)
+- Register at [KlokApp](https://klokapp.ai?referral_code=XQ56WGES)
 - After registering, you'll need to get your session token
 
 4. **Session Token** (Required):
